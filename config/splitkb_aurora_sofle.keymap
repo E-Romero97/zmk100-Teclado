@@ -16,7 +16,10 @@
     // chain-length = <29>; // Uncomment if using only per-key LEDs.
 };
  */
-
+#define DEFAULT 0
+#define INTERFACE 1
+#define GAME   2
+#define MAC 3
 / {
     keymap {
         compatible = "zmk,keymap";
